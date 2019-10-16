@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#page-numbers {
+  background-color: rgba(114, 113, 113, 0.562);
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px 0px 10px 10px;
+}
+.page-number-click {
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 12px;
+  background-color: rgb(238, 238, 238);
+  color: rgb(49, 49, 49);
+  box-shadow: 1px 2px 10px rgb(49, 49, 49);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 1px 2px 10px rgb(53, 53, 53);
+}
+td, th {
+  width: 33.3%;
+  height: 40px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.918);
+}
+.table-styles {
+  height: 500px;
+}
+.fa-pen {
+  color: rgb(65, 65, 65);
+}
+.fa-check {
+  color: green;
+  margin-top: 10px;
+}
+.fa-pen:hover, .fa-check:hover {
+  opacity: .8;
+}
+h1 {
+  background-color: rgba(133, 131, 131, 0.562);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  width: 33%;
+}
+.data-table-header {
+  height: 150px;
+  text-align: center;
+  color: white;
+  box-shadow: 1px 2px 10px rgb(53, 53, 53);
+}
+.data-table-header > span {
+  margin: 0 auto;
+  width: 125px;
+  background-color: blue;
+}
+input {
+  font-size: 14px;
+  /* margin-right: -10px; */
+}
+.save-cancel-buttons {
+  float: right;
+  color: white;
+}
+.data-info {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(70, 69, 69, 0.562);
+  color: white;
+  box-shadow: 1px 2px 10px rgb(53, 53, 53);
+}
+.non-active {
+  color: rgb(189, 186, 186);
+  background-color: rgb(83, 82, 82);
+  border: none;
+}
+.main-container > span {
+  color: white;
+  margin: 5px;
+}
+.button-container {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  /* background-color: red; */
+}
+.items-tracker {
+  display: flex; 
+  justify-content: center;
+  background-color: rgb(95, 95, 95);
+  width: 15px;
+  height: 15px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 100%;
+  box-shadow: 1px 2px 10px rgb(53, 53, 53);
+}
+.save-items {
+  cursor: pointer;
+  display: flex; 
+  justify-content: center;
+  background-color: rgb(30, 139, 57);
+  width: 15px;
+  height: 15px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 100%;
+  box-shadow: 1px 2px 10px rgb(53, 53, 53);
+}
+.save-items:hover {
+  opacity: .8;
+}
